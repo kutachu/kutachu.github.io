@@ -11,92 +11,93 @@
 			});
 		}
 		</script>
-		<title>ピカブイ</title>
+		<script type="text/javascript" src="./pikav.js"></script>
+		<title>PikaV</title>
 	</head>
 	<body>
-		<span id="main">捕獲済：<span id="get_count">0</span></span>
+		<h1><span id="main">捕獲済：<span id="get_count">0</span></span></h1>
 		<hr>
 		<div id="pokemon">
 			<table border=1 align=center>
 				<tr>
-					<td><input type="image" src="./pic/010.png" alt="pic"></td>
-					<td><input type="image" src="./pic/011.png" alt="pic"></td>
-					<td><input type="image" src="./pic/012.png" alt="pic"></td>
-					<td><input type="image" src="./pic/013.png" alt="pic"></td>
-					<td><input type="image" src="./pic/014.png" alt="pic"></td>
-					<td><input type="image" src="./pic/015.png" alt="pic"></td>
-					<td><input type="image" src="./pic/069.png" alt="pic"></td>
+					<td><input type="image" src="./pic/010.png" alt="pic" id="0" onclick="imgClick(0, '010');"></td>
+					<td><input type="image" src="./pic/011.png" alt="pic" id="1" onclick="imgClick(1, '011');"></td>
+					<td><input type="image" src="./pic/012.png" alt="pic" id="2" onclick="imgClick(2, '012');"></td>
+					<td><input type="image" src="./pic/013.png" alt="pic" id="3" onclick="imgClick(3, '013');"></td>
+					<td><input type="image" src="./pic/014.png" alt="pic" id="4" onclick="imgClick(4, '014');"></td>
+					<td><input type="image" src="./pic/015.png" alt="pic" id="5" onclick="imgClick(5, '015');"></td>
+					<td><input type="image" src="./pic/069.png" alt="pic" id="6" onclick="imgClick(6, '069');"></td>
 				</tr>
 				<tr>
-					<td><input type="image" src="./pic/070.png" alt="pic"></td>
-					<td><input type="image" src="./pic/001.png" alt="pic"></td>
-					<td><input type="image" src="./pic/043.png" alt="pic"></td>
-					<td><input type="image" src="./pic/027.png" alt="pic"></td>
-					<td><input type="image" src="./pic/056.png" alt="pic"></td>
-					<td><input type="image" src="./pic/004.png" alt="pic"></td>
-					<td><input type="image" src="./pic/129.png" alt="pic"></td>
+					<td><input type="image" src="./pic/070.png" alt="pic" id="7" onclick="imgClick(7, '070');"></td>
+					<td><input type="image" src="./pic/001.png" alt="pic" id="8" onclick="imgClick(8, '001');"></td>
+					<td><input type="image" src="./pic/043.png" alt="pic" id="9" onclick="imgClick(9, '043');"></td>
+					<td><input type="image" src="./pic/027.png" alt="pic" id="10" onclick="imgClick(10, '027');"></td>
+					<td><input type="image" src="./pic/056.png" alt="pic" id="11" onclick="imgClick(11, '056');"></td>
+					<td><input type="image" src="./pic/004.png" alt="pic" id="12" onclick="imgClick(12, '004');"></td>
+					<td><input type="image" src="./pic/129.png" alt="pic" id="13" onclick="imgClick(13, '129');"></td>
 				</tr>
 				<tr>
-					<td><input type="image" src="./pic/035.png" alt="pic"></td>
-					<td><input type="image" src="./pic/036.png" alt="pic"></td>
-					<td><input type="image" src="./pic/074.png" alt="pic"></td>
-					<td><input type="image" src="./pic/075.png" alt="pic"></td>
-					<td><input type="image" src="./pic/046.png" alt="pic"></td>
-					<td><input type="image" src="./pic/047.png" alt="pic"></td>
-					<td><input type="image" src="./pic/113.png" alt="pic"></td>
+					<td><input type="image" src="./pic/035.png" alt="pic" id="14" onclick="imgClick(14, '035');"></td>
+					<td><input type="image" src="./pic/036.png" alt="pic" id="15" onclick="imgClick(15, '036');"></td>
+					<td><input type="image" src="./pic/074.png" alt="pic" id="16" onclick="imgClick(16, '074');"></td>
+					<td><input type="image" src="./pic/075.png" alt="pic" id="17" onclick="imgClick(17, '075');"></td>
+					<td><input type="image" src="./pic/046.png" alt="pic" id="18" onclick="imgClick(18, '046');"></td>
+					<td><input type="image" src="./pic/047.png" alt="pic" id="19" onclick="imgClick(19, '047');"></td>
+					<td><input type="image" src="./pic/113.png" alt="pic" id="20" onclick="imgClick(20, '113');"></td>
 				</tr>
 				<tr>
-					<td><input type="image" src="./pic/095.png" alt="pic"></td>
-					<td><input type="image" src="./pic/041.png" alt="pic"></td>
-					<td><input type="image" src="./pic/042.png" alt="pic"></td>
-					<td><input type="image" src="./pic/021.png" alt="pic"></td>
-					<td><input type="image" src="./pic/022.png" alt="pic"></td>
-					<td><input type="image" src="./pic/054.png" alt="pic"></td>
-					<td><input type="image" src="./pic/048.png" alt="pic"></td>
+					<td><input type="image" src="./pic/095.png" alt="pic" id="21" onclick="imgClick(21, '095');"></td>
+					<td><input type="image" src="./pic/041.png" alt="pic" id="22" onclick="imgClick(22, '041');"></td>
+					<td><input type="image" src="./pic/042.png" alt="pic" id="23" onclick="imgClick(23, '042');"></td>
+					<td><input type="image" src="./pic/021.png" alt="pic" id="24" onclick="imgClick(24, '021');"></td>
+					<td><input type="image" src="./pic/022.png" alt="pic" id="25" onclick="imgClick(25, '022');"></td>
+					<td><input type="image" src="./pic/054.png" alt="pic" id="26" onclick="imgClick(26, '054');"></td>
+					<td><input type="image" src="./pic/048.png" alt="pic" id="27" onclick="imgClick(27, '048');"></td>
 				</tr>
 				<tr>
-					<td><input type="image" src="./pic/058.png" alt="pic"></td>
-					<td><input type="image" src="./pic/037.png" alt="pic"></td>
-					<td><input type="image" src="./pic/016.png" alt="pic"></td>
-					<td><input type="image" src="./pic/017.png" alt="pic"></td>
-					<td><input type="image" src="./pic/039.png" alt="pic"></td>
-					<td><input type="image" src="./pic/040.png" alt="pic"></td>
-					<td><input type="image" src="./pic/032.png" alt="pic"></td>
+					<td><input type="image" src="./pic/058.png" alt="pic" id="28" onclick="imgClick(28, '058');"></td>
+					<td><input type="image" src="./pic/037.png" alt="pic" id="29" onclick="imgClick(29, '037');"></td>
+					<td><input type="image" src="./pic/016.png" alt="pic" id="30" onclick="imgClick(30, '016');"></td>
+					<td><input type="image" src="./pic/017.png" alt="pic" id="31" onclick="imgClick(31, '017');"></td>
+					<td><input type="image" src="./pic/039.png" alt="pic" id="32" onclick="imgClick(32, '039');"></td>
+					<td><input type="image" src="./pic/040.png" alt="pic" id="33" onclick="imgClick(33, '040');"></td>
+					<td><input type="image" src="./pic/032.png" alt="pic" id="34" onclick="imgClick(34, '032');"></td>
 				</tr>
 				<tr>
-					<td><input type="image" src="./pic/033.png" alt="pic"></td>
-					<td><input type="image" src="./pic/029.png" alt="pic"></td>
-					<td><input type="image" src="./pic/030.png" alt="pic"></td>
-					<td><input type="image" src="./pic/111.png" alt="pic"></td>
-					<td><input type="image" src="./pic/104.png" alt="pic"></td>
-					<td><input type="image" src="./pic/066.png" alt="pic"></td>
-					<td><input type="image" src="./pic/067.png" alt="pic"></td>
+					<td><input type="image" src="./pic/033.png" alt="pic" id="35" onclick="imgClick(35, '033');"></td>
+					<td><input type="image" src="./pic/029.png" alt="pic" id="36" onclick="imgClick(36, '029');"></td>
+					<td><input type="image" src="./pic/030.png" alt="pic" id="37" onclick="imgClick(37, '030');"></td>
+					<td><input type="image" src="./pic/111.png" alt="pic" id="38" onclick="imgClick(38, '111');"></td>
+					<td><input type="image" src="./pic/104.png" alt="pic" id="39" onclick="imgClick(39, '104');"></td>
+					<td><input type="image" src="./pic/066.png" alt="pic" id="40" onclick="imgClick(40, '066');"></td>
+					<td><input type="image" src="./pic/067.png" alt="pic" id="41" onclick="imgClick(41, '067');"></td>
 				</tr>
 				<tr>
-					<td><input type="image" src="./pic/115.png" alt="pic"></td>
-					<td><input type="image" src="./pic/063.png" alt="pic"></td>
-					<td><input type="image" src="./pic/064.png" alt="pic"></td>
-					<td><input type="image" src="./pic/092.png" alt="pic"></td>
-					<td><input type="image" src="./pic/093.png" alt="pic"></td>
-					<td><input type="image" src="./pic/077.png" alt="pic"></td>
-					<td><input type="image" src="./pic/078.png" alt="pic"></td>
+					<td><input type="image" src="./pic/115.png" alt="pic" id="42" onclick="imgClick(42, '115');"></td>
+					<td><input type="image" src="./pic/063.png" alt="pic" id="43" onclick="imgClick(43, '063');"></td>
+					<td><input type="image" src="./pic/064.png" alt="pic" id="44" onclick="imgClick(44, '064');"></td>
+					<td><input type="image" src="./pic/092.png" alt="pic" id="45" onclick="imgClick(45, '092');"></td>
+					<td><input type="image" src="./pic/093.png" alt="pic" id="46" onclick="imgClick(46, '093');"></td>
+					<td><input type="image" src="./pic/077.png" alt="pic" id="47" onclick="imgClick(47, '077');"></td>
+					<td><input type="image" src="./pic/078.png" alt="pic" id="48" onclick="imgClick(48, '078');"></td>
 				</tr>
 				<tr>
-					<td><input type="image" src="./pic/084.png" alt="pic"></td>
-					<td><input type="image" src="./pic/085.png" alt="pic"></td>
-					<td><input type="image" src="./pic/133.png" alt="pic"></td>
-					<td><input type="image" src="./pic/120.png" alt="pic"></td>
-					<td><input type="image" src="./pic/121.png" alt="pic"></td>
-					<td><input type="image" src="./pic/072.png" alt="pic"></td>
-					<td><input type="image" src="./pic/073.png" alt="pic"></td>
+					<td><input type="image" src="./pic/084.png" alt="pic" id="49" onclick="imgClick(49, '084');"></td>
+					<td><input type="image" src="./pic/085.png" alt="pic" id="50" onclick="imgClick(50, '085');"></td>
+					<td><input type="image" src="./pic/133.png" alt="pic" id="51" onclick="imgClick(51, '133');"></td>
+					<td><input type="image" src="./pic/120.png" alt="pic" id="52" onclick="imgClick(52, '120');"></td>
+					<td><input type="image" src="./pic/121.png" alt="pic" id="53" onclick="imgClick(53, '121');"></td>
+					<td><input type="image" src="./pic/072.png" alt="pic" id="54" onclick="imgClick(54, '072');"></td>
+					<td><input type="image" src="./pic/073.png" alt="pic" id="55" onclick="imgClick(55, '073');"></td>
 				</tr>
 				<tr>
-					<td><input type="image" src="./pic/088.png" alt="pic"></td>
-					<td><input type="image" src="./pic/109.png" alt="pic"></td>
-					<td><input type="image" src="./pic/126.png" alt="pic"></td>
-					<td><input type="image" src="./pic/132.png" alt="pic"></td>
-					<td><input type="image" src="./pic/131.png" alt="pic"></td>
-					<td><input type="image" src="./pic/137.png" alt="pic"></td>
+					<td><input type="image" src="./pic/088.png" alt="pic" id="56" onclick="imgClick(56, '088');"></td>
+					<td><input type="image" src="./pic/109.png" alt="pic" id="57" onclick="imgClick(57, '109');"></td>
+					<td><input type="image" src="./pic/126.png" alt="pic" id="58" onclick="imgClick(58, '126');"></td>
+					<td><input type="image" src="./pic/132.png" alt="pic" id="59" onclick="imgClick(59, '132');"></td>
+					<td><input type="image" src="./pic/131.png" alt="pic" id="60" onclick="imgClick(60, '131');"></td>
+					<td><input type="image" src="./pic/137.png" alt="pic" id="61" onclick="imgClick(61, '137');"></td>
 					<td></td>
 				</tr>
 			</table>

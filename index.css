@@ -5,3 +5,6 @@
 input[type="submit"] {
 	-webkit-appearance: none;
 }
+html {
+	touch-action:none;
+}

@@ -2,10 +2,6 @@
 	text-align:center;
 	vertical-align: middle;
 }
-#pokemon {
-	text-align: center;
-}
-#pokemon table{
-	margin-left: auto;
-	margin-right: auto;
+input[type="submit"] {
+	-webkit-appearance: none;
 }

@@ -1,5 +1,11 @@
 ﻿body {
 	text-align:center;
-	font-size: 40px;
 	vertical-align: middle;
+}
+#pokemon {
+	text-align: center;
+}
+#pokemon table{
+	margin-left: auto;
+	margin-right: auto;
 }
